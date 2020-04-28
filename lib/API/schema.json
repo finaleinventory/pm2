@@ -160,6 +160,11 @@
     "type": "number",
     "min": 0
   },
+  "finale_pace_restart": {
+    "type": "number",
+    "min": 0,
+    "default" : 0
+  },
   "exec_mode": {
     "type": "string",
     "regex": "^(cluster|fork)(_mode)?$",
